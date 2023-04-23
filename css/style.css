@@ -6,15 +6,24 @@ body{
     background-color: #c4c4c4;
 }
 .card {
-
+    margin: 1%;
     background-color: red;
     display: inline-block;
+    padding: 15px;
+}
+.cabecalho{
+    padding: 2%;
+}
+img {
+    display: block;
+    width: 40vh;
+    border-radius: 50%;
+    border: 6px solid #FFFFFF;
 }
 .skills-list{
     text-decoration: none;
     display: flex;
 }
-
 footer{
     background-color: #536FFE;
 }
