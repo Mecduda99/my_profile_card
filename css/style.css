@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+}
+body{
+    text-align: center;
+    background-color: #c4c4c4;
+}
+.card {
+
+    background-color: red;
+    display: inline-block;
+}
+.skills-list{
+    text-decoration: none;
+    display: flex;
+}
+
+footer{
+    background-color: #536FFE;
+}
