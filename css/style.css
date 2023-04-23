@@ -7,18 +7,40 @@ body{
 }
 .card {
     margin: 1%;
-    background-color: red;
-    display: inline-block;
+    background-color: white;
     padding: 15px;
+    width: 50%;
+    margin-left: 20%;
 }
 .cabecalho{
-    padding: 2%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 img {
-    display: block;
-    width: 40vh;
+    /* display: block; */
+    width: 30vh;
     border-radius: 50%;
     border: 6px solid #FFFFFF;
+}
+.titulo2{
+    display: flex;
+    justify-content: left;
+}
+.list {
+    display: flex;
+    flex-direction: row;
+}
+.list ul{
+    text-decoration: none;
+}
+.list li {
+    text-decoration: none;
+    border: 1px solid #536FFE;
+    border-radius: 5%;
+    padding: 1%;
+    margin-left: 1%;
+    margin-right: 1%;
 }
 .skills-list{
     text-decoration: none;
@@ -26,4 +48,14 @@ img {
 }
 footer{
     background-color: #536FFE;
+    text-align: center;
+}
+nav ul{
+    display: flex;
+    flex-direction: row;
+}
+nav ul li {
+    padding: 1%;
+    margin-left: 1%;
+    margin-right: 1%;
 }
