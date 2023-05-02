@@ -27,7 +27,7 @@ body {
     border-radius: 0 0 60% 60%;
 }
 .img-profile img {
-    max-height: 30vh;
+    max-height: 16rem;
     border-radius: 50%;
     border: 5px solid white;
     box-sizing: border-box;
