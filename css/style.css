@@ -124,6 +124,9 @@ body {
     margin: 2%;
 
 }
+.voltar a:hover {
+    color: #F166C8;
+}
 .voltar a {
     padding-top: 10%;
     padding-left: 10%;
